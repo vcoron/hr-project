@@ -2,9 +2,9 @@
 session_start();
 
 
-session_unset();
+session_unset('Admin');
 
-session_destroy();
+session_destroy('Admin');
 
 header('Location: index.php');
 exit();
