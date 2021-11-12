@@ -1,0 +1,62 @@
+/* Start Main Rule */
+body{
+background-color: #334;	
+}
+.header{ /*h3*/
+	color: #fff;
+	margin-bottom: 30px;
+	margin-top: 25px;
+	font-weight: bold;
+	
+}
+/* End Main Rule */
+input::placeholder {
+ text-align: center
+}
+
+
+
+
+.profile{
+	border: none;
+	box-shadow: none;
+}
+.image-user img{width: 150px; height: 150px;}
+
+
+/* Start Profile Page */
+.information ul {
+	padding: 0;
+	margin: 0;
+	font-weight: 500;
+	font-size: 17px;
+}
+.information ul li {
+	padding: 10px;
+	
+}
+.information ul li:nth-child(odd){
+	background-color: #334;
+}
+.information ul li span{
+	display: inline-block;
+	width: 150px;
+}
+
+/* End Profile Page */
+
+/* Start Login Form */
+.log-in{
+	margin-top: 50px;
+
+}
+
+.log-in .fields{
+min-height: 400px;
+color: #333;
+padding-bottom: 40px;
+padding-top: 40px;
+	
+}
+
+/* Edit Form */

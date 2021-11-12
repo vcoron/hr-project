@@ -1,0 +1,119 @@
+/* Start Main Rule */
+body{
+background-color: #f4f4f4;	
+}
+
+
+.asterisk{
+	font-size: 30px;
+	position: absolute;
+	color: #DF1518;
+	right: 15px
+}
+.header{ /*h3*/
+	margin-bottom: 30px;
+	color: #212529
+}
+/* End Main Rule */
+input::placeholder {
+ text-align: center
+}
+
+
+/* Start Bootstrap Edits */
+
+.navbar-dark .navbar-brand{
+	
+	color: #FFF;
+}
+
+.navbar-dark .navbar-brand:hover{
+	
+	color: #0984ea;
+}
+
+
+.navbar-nav .dropdown-menu{
+	background-color: #212529;
+	border: none;
+	min-width: 11rem;
+}
+.navbar-nav .dropdown-item {
+	color: #FFFFFF;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition:  all .5s ease-in-out;
+	-o-transition:  all .5s ease-in-out;
+	transition:  all .5s ease-in-out;
+}
+.navbar-nav .dropdown-menu :hover{
+	color: #0984e3;
+	padding-left: 20px;
+	background-color: #212529;
+		
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+	color: white
+}
+.navbar-nav .dropdown-divider{
+	color: #FFFFFF;
+}
+.navbar-nav .dropdown-divider:hover{
+	color: #0984e3;
+	background-color: #0984e3
+}
+
+
+/* End Bootstrap Edits */
+/* Start Login Form */
+.log-in{
+		margin-top: 50px;
+
+}
+
+.log-in .fields{
+	min-height: 400px;
+	color: #333;
+	padding-bottom: 40px;
+	padding-top: 40px;
+		
+}
+
+/* Edit Form */
+
+.edit-profile{
+	margin-top: 0;
+}
+.edit-profile .fields{
+	min-height: 400px;
+	color: #333;
+	padding-bottom: 40px;
+	padding-top: 40px;
+		
+}
+
+/*hover for password button */
+.hv:hover{ 
+	background: #fff;
+	color: black;
+}
+
+
+.table-members .main-table{
+	-webkit-box-shadow: 0 3px 5px #333;
+	-moz-box-shadow: 0 3px 5px #333;
+	box-shadow: 0 3px 5px #333;
+}
+
+.table-members .main-table .table-bordered>:not(caption)>* {
+    vertical-align: middle;
+}
+
+.table-members .table-responsive .btn{
+	padding:2px 4px 4px 4px
+}
+.approve{
+	margin-left: 8px
+}
+.del{
+	margin-left: 5px
+}
