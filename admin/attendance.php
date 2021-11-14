@@ -224,7 +224,7 @@ if ($check > 0){
 
                 $stmt = $con->prepare("INSERT INTO
                 attendance (Att_Date , status , Emp_ID )
-                VALUES( now() , 1 , :zemp ) WHERE ");
+                VALUES( now() , 1 , :zemp ) ");
 
                     $stmt->execute(array(
                     'zemp' => $id
